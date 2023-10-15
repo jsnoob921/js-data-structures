@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "nyc --reporter=html  mocha  --bail --timeout 10000 --check-leaks test"
+		"test": "nyc --reporter=html  mocha  --bail --timeout 10000 --check-leaks test",
+		"test:ci": "nyc --reporter=cobertura --reporter=text mocha --forbid-only --forbid-pending --fail-zero test --timeout 10000 --check-leaks"
 	},
 	"repository": {
 		"type": "git",
