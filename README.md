@@ -19,3 +19,4 @@ This repo demonstrates the basic implementation of data structures in JavaScript
 ## Table of contents
 
 - [Stack](lib/stack.js)
+- [Queue](lib/queue.js)
