@@ -1,0 +1,40 @@
+{
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "quotes": [
+            2,
+            "single",
+            {
+                "avoidEscape": true
+            }
+        ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "no-console": 1,
+        "no-fallthrough": 0,
+        "vars-on-top": 2,
+        "require-await": "error",
+		"camelcase": "error",
+		"object-curly-spacing": ["error", "always"],
+		"space-before-function-paren": ["error", "always"],
+		"max-len": ["error", { "code": 120 }]
+    },
+    "env": {
+        "node": true,
+        "mocha": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 13
+    }
+}

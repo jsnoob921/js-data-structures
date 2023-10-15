@@ -1,0 +1,29 @@
+{
+	"name": "js-data-structures",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "nyc --reporter=html  mocha  --bail --timeout 10000 --check-leaks test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jsnoob921/js-data-structures.git"
+	},
+	"keywords": [],
+	"author": "_jsnoob <jsnoob.921@gmail.com",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jsnoob921/js-data-structures/issues"
+	},
+	"homepage": "https://github.com/jsnoob921/js-data-structures#readme",
+	"devDependencies": {
+		"eslint": "8.51.0",
+		"mocha": "10.2.0",
+		"nyc": "15.1.0"
+	},
+	"directories": {
+		"lib": "lib",
+		"test": "test"
+	}
+}
