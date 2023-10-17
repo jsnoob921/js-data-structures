@@ -20,3 +20,4 @@ This repo demonstrates the basic implementation of data structures in JavaScript
 
 - [Stack](lib/stack.js)
 - [Queue](lib/queue.js)
+- [Priority Queue](lib/priority-queue.js)
